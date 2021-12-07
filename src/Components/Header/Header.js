@@ -14,11 +14,11 @@ function Header() {
                     
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#home">About</Nav.Link>
-                    <Nav.Link href="#home">Projects</Nav.Link>
-                    <Nav.Link href="#home">Blog</Nav.Link>
-                    <Nav.Link href="#features">Resume</Nav.Link>
+                    <Nav.Link className="navLink" href="#home">Home</Nav.Link>
+                    <Nav.Link className="navLink" href="#home">About</Nav.Link>
+                    <Nav.Link className="navLink" href="#home">Projects</Nav.Link>
+                    <Nav.Link className="navLink" href="#home">Blog</Nav.Link>
+                    <Nav.Link className="navLink" href="#features">Resume</Nav.Link>
                    
                 </Nav>
                 

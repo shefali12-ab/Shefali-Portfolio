@@ -1,5 +1,6 @@
 import React from 'react'
 import './middle.css'
+import illustration1 from'../../Images/Version control-pana (1).png'
 function Middle() {
     return (
        
@@ -7,15 +8,20 @@ function Middle() {
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
+           
             <div className="text">
-                <h5>Hii, Amigos</h5>
-                <h3>I am SHEFALI KANOJIA</h3>
-                <i class="fa fa-github"></i>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-twitter"></i>
+            
+                <h5>Hii, Amigos!</h5>
+                <h3>I'm SHEFALI KANOJIA</h3>
+                <h3>FRONTEND ENTUASTIC</h3>
+                <i class="fa fa-github icons"></i>
+                <i class="fab fa-linkedin icons"></i>
+                <i class="fab fa-twitter icons"></i>
+              
                 
                 
             </div>
+            <img src={illustration1} ></img>
             
         </section>
     )

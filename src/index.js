@@ -10,7 +10,7 @@ ReactDOM.render(
   
    <Header />
     <Middle />
-    <About />
+    
     
     <Footer />
     
