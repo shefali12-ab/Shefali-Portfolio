@@ -12,7 +12,7 @@ function Middle() {
             <div className="text">
             
                 <h5>Hii, Amigos!</h5>
-                <h3>I'm SHEFALI KANOJIA</h3>
+                <h3><span className="heading-third">I'm </span> SHEFALI KANOJIA</h3>
                 <h3>FRONTEND ENTUASTIC</h3>
                 <i class="fa fa-github icons"></i>
                 <i class="fab fa-linkedin icons"></i>
