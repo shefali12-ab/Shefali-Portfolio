@@ -1,14 +1,14 @@
 import React from 'react'
-import './footer.css';
+import '../index.css';
 function Footer()
 {
     return (
         <div className="footer">
             <p>Designed by Shefali </p>
             <h5 >  Copyright 2022 © shefali</h5>
-            <i class="fa fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-twitter"></i>
+            <a href="https://github.com/shefali12-ab"><i class="fa fa-github footericon"></i> </a>
+            <a href="https://www.linkedin.com/in/shefalik16/"><i class="fab fa-linkedin footericon"></i></a>
+            <a href="https://twitter.com/shefali_kanojia"><i class="fab fa-twitter footericon"></i></a>
             
             
 

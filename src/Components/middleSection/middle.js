@@ -12,11 +12,24 @@ function Middle() {
             <div className="text">
             
                 <h5>Hii, Amigos!</h5>
-                <h3><span className="heading-third">I'm </span> SHEFALI KANOJIA</h3>
-                <h3>FRONTEND ENTUASTIC</h3>
-                <i class="fa fa-github icons"></i>
-                <i class="fab fa-linkedin icons"></i>
-                <i class="fab fa-twitter icons"></i>
+                <h3><span className="heading-third">I'M </span> SHEFALI KANOJIA</h3>
+                <div className="wrapper">
+                    <ul className="dynamicText">
+                        
+                        <li>WEB DEVELOPER</li>
+                        <li> DEVOPS & BLOCKCHAIN ENTHUSIAST</li>
+                        <li>COMPETITIVE PROGRAMMER</li>
+                        <li>OPEN SOURCE CONTRIBUTOR</li>
+                        
+                    </ul>
+                    
+                </div>
+                <h6>Connect with me on</h6>
+                <a href="https://github.com/shefali12-ab"><i class="fa fa-github footericon"></i> </a>
+            <a href="https://www.linkedin.com/in/shefalik16/"><i class="fab fa-linkedin footericon"></i></a>
+            <a href="https://twitter.com/shefali_kanojia"><i class="fab fa-twitter footericon"></i></a>
+            
+            
               
                 
                 
