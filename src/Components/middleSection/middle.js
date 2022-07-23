@@ -17,7 +17,7 @@ function Middle() {
                     <ul className="dynamicText">
                         
                         <li>WEB DEVELOPER</li>
-                        <li> DEVOPS & BLOCKCHAIN ENTHUSIAST</li>
+                        {/* <li> DEVOPS & BLOCKCHAIN ENTHUSIAST</li> */}
                         <li>COMPETITIVE PROGRAMMER</li>
                         <li>OPEN SOURCE CONTRIBUTOR</li>
                         

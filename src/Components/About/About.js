@@ -13,8 +13,8 @@ function About()
                 <li>I'm a prefinal year student at National Institute of Technology,Hamirpur.</li>
                 <li>I'm pursuing Integrated degree in Electronics And Communication Engineering.</li>
                     <li>I familiar with <span className="aboutintro">C, C++ and Javascript language</span>.</li>
-                    <li>I love to do problem solving (Data Stuctures)on Codeforces,CodeChef &LeetCode. </li>
-                     <li>My Field of interest includes building <span className="aboutintro">Web Technologies and products using HTML,CSS,JS and React JS </span> <br></br>and also I am exploring the areas related to <span className="aboutintro"> DevOps , Blockchain and ML </span>.</li>
+                    {/* <li>I love to do problem solving (Data Stuctures)on Codeforces,CodeChef &LeetCode. </li> */}
+                     <li>My Field of interest includes building <span className="aboutintro">Web Technologies and products using HTML,CSS,JS and React JS </span> </li>
                 </ul>
             
             <p>Apart from coding things I love to do
