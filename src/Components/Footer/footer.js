@@ -4,7 +4,7 @@ function Footer()
 {
     return (
         <div className="footer">
-            <p>Designed by Shefali </p>
+            <p>Designed with Love by Shefali </p>
             <h5 >  Copyright 2022 © shefali</h5>
             <a href="https://github.com/shefali12-ab"><i class="fa fa-github footericon"></i> </a>
             <a href="https://www.linkedin.com/in/shefalik16/"><i class="fab fa-linkedin footericon"></i></a>

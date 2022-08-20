@@ -10,11 +10,12 @@ function Middle() {
             <div id="stars3"></div>
            
             <div className="text">
-            
+            <div className="second-div" >
                 <h5>Hii, Amigos!</h5>
                 <h3><span className="heading-third">I'M </span> SHEFALI KANOJIA</h3>
                 <div className="wrapper">
-                    <ul className="dynamicText">
+               
+                <ul className="dynamicText">
                         
                         <li>WEB DEVELOPER</li>
                         {/* <li> DEVOPS & BLOCKCHAIN ENTHUSIAST</li> */}
@@ -29,12 +30,16 @@ function Middle() {
             <a href="https://www.linkedin.com/in/shefalik16/"><i class="fab fa-linkedin footericon"></i></a>
             <a href="https://twitter.com/shefali_kanojia"><i class="fab fa-twitter footericon"></i></a>
             
+                </div>
+                  <div className='third-div'>
+                    <img  src={illustration1} ></img>
+                  </div>
             
               
-                
+           
                 
             </div>
-            <img src={illustration1} ></img>
+           
             
         </section>
     )

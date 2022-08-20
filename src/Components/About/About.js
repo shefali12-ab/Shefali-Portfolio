@@ -2,30 +2,39 @@ import React from 'react'
 import '../index.css'
 import Image1 from '../../Images/leetocode_logo.jpg'
 import Image2 from'../../Images/codeforce.png'
+import Image3 from '../About/girl1.png'
 function About()
 {
     return (
         <div className="about">
-        <h1>LET ME INTRODUCE MYSELF</h1>
+        <div className='intro-sec'>
+        <h1>LET ME <span >INTRODUCE</span> MYSELF</h1>
             <div className="introsection">
                
                 <ul>
-                <li>I'm a prefinal year student at National Institute of Technology,Hamirpur.</li>
+                <li>I'm a final year student at National Institute of Technology,Hamirpur.</li>
                 <li>I'm pursuing Integrated degree in Electronics And Communication Engineering.</li>
                     <li>I familiar with <span className="aboutintro">C, C++ and Javascript language</span>.</li>
                     {/* <li>I love to do problem solving (Data Stuctures)on Codeforces,CodeChef &LeetCode. </li> */}
-                     <li>My Field of interest includes building <span className="aboutintro">Web Technologies and products using HTML,CSS,JS and React JS </span> </li>
+                     <li>My Field of interest includes building <span className="aboutintro">Web application using HTML,CSS,JS  </span> </li>
+                     <li>I love to spend my leisure time in nature and listening music.</li>
                 </ul>
             
-            <p>Apart from coding things I love to do
+            {/* <p>Apart from coding things I love to do
                 <ul>
                     <li>Listening Music</li>
                     <li> Painting & Sketching</li>
                     <li>Spending leasiure time in Nature</li>
                 </ul>   
-                </p>
+                </p> */}
             </div>
-            <div className="edusection">
+        </div>
+    <div className='intro-sec-img'>
+      <img className="profile-pic"src={Image3}></img>
+    </div>
+       <div className='education-sec'>
+
+       <div className="edusection">
                 <h1>EDUCATION</h1>
                 <h6 >2019-2024</h6>
                 <h5>2016-2017</h5>
@@ -49,6 +58,10 @@ function About()
             <p>Intermediate in Physics,Chemistry,Mathematics </p>
             </div>
             </div>  
+
+       </div>
+       
+            
                   
                
                 
